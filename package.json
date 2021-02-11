@@ -1,0 +1,27 @@
+{
+  "name": "contact.php",
+  "version": "1.0.0",
+  "description": "Hej, dette er lidt af en test og der er weekend fra i dag",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass --output-style compressed -o css/ css/ --source-map true",
+    "watch": "onchange \"css/*.scss\" -- npm run sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Astelun/contact.php.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Astelun/contact.php/issues"
+  },
+  "homepage": "https://github.com/Astelun/contact.php#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0",
+    "onchange": "^7.1.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta1"
+  }
+}
